@@ -1,0 +1,5 @@
+node() {
+  stage ('folder') {
+    sh 'from the subfolder'
+  }
+}
