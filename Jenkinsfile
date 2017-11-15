@@ -1,3 +1,5 @@
-node {
-  sh 'sleep 1'
+node('ec2') {
+  stage ('folder') {
+    sh 'from the subfolder'
+  }
 }
