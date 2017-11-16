@@ -9,6 +9,7 @@ def call() {
     stages {
       stage('Hello') {
         steps {
+          echo "Parameters loaded from Library"
         }
       }
     }
