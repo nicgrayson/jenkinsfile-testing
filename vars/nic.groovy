@@ -9,7 +9,7 @@ def call(int buildNumber) {
     stages {
       stage('Hello') {
         steps {
-          echo "Hello ${PERSON}"
+          echo "Hello ${params.PERSON}"
         }
       }
     }
