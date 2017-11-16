@@ -7,7 +7,7 @@ def call(int buildNumber) {
     }
 
     stages {
-      stage('Hello')
+      stage('Hello') {
         steps {
           echo "Hello ${PERSON}"
         }
