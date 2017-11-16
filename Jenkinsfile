@@ -1,3 +1,5 @@
 node {
-  sh 'sleep 1'
+  stage('Parameter Test') {
+    sh "echo ${params.TEST}"
+  }
 }
