@@ -7,7 +7,7 @@ def call() {
     }
 
     stages {
-      stage('Hello') {
+      stage('Parameter Loading') {
         steps {
           echo "Parameters loaded from Library"
         }

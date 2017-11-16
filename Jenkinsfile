@@ -3,5 +3,7 @@
 nic()
 
 node {
-  echo "Hello ${params.PERSON}"
+  stage('Greeting') {
+    echo "Hello ${params.PERSON}"
+  }
 }
