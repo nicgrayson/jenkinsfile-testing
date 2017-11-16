@@ -1,3 +1,3 @@
 @Library('jenkinsfile-testing') _
 
-params()
+params(currentBuild.getNumber())
