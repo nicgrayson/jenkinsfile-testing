@@ -1,0 +1,9 @@
+pipeline:
+  build:
+    image: python
+    commands:
+      - python -V
+
+services:
+  consul:
+    image: consul
